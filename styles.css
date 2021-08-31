@@ -1,0 +1,44 @@
+@keyframes botao{
+	0% {background-color: #007bff;}
+	50% {background-color: #ddad1c;}
+	75% {background-color: #000;}
+	100% {background-color: #007bff;}
+	
+}
+
+#botao{
+	animation: botao 3s 1s infinite normal;
+	border: none;
+}
+
+#shadow{
+	text-shadow: 1px 1px 10px #000;
+}
+
+.box{
+	box-shadow:  0px 1px 100px #000;
+}
+
+#home {
+	background: #ffc107;
+	color: #fff;
+}
+
+#rodape {
+	background: #ffc107;
+	color: #000;
+}
+
+#direito a{
+	color: #000;
+}
+
+#imagem{
+	border-radius: 150px;
+    width: 500px;
+    height: 400px;
+}
+
+#menor{
+	font-size: 0.6rem;
+}
